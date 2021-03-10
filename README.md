@@ -9,9 +9,13 @@ Challenge to test-drive FizzBuzz in JavaScript, using Jasmine.
 
 ## How To Try
 - git clone
-- type open SpecRunner.html in the terminal
-- press cmd+opt+j to open the console in Chrome
-- type: var javabuzz = new Javabuzz();
-        for (var i = 1; i <= 100; i++) {
-            console.log(javabuzz.says(i)); }
+- type: open SpecRunner.html in the terminal
+- press: cmd+opt+j to open the console in Chrome
+- type: 
+```
+var javabuzz = new Javabuzz();
+for (var i = 1; i <= 100; i++) {
+  console.log(javabuzz.says(i)); 
+}
+```
 - voila
